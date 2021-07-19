@@ -878,7 +878,7 @@ local isWhitelisted = "haha"
 local exploit = is_sirhurt_closure and "Sirhurt" or pebc_execute and "ProtoSmasher" or syn and "Synapse X" or secure_load and "Sentinel" or KRNL_LOADED and "KRNL" or SONA_LOADED and "Sona" or isexecutorclosure and "Script-Ware" or "Some shitty exploit idk"
 local message = "Premium script attempted use:\nRoblox Name: "..game.Players.LocalPlayer.Name.."\nRoblox Account: https://www.roblox.com/users/"..game.Players.LocalPlayer.UserId.."/profile".."\nHWID: "..PlayerHWID.."\nKey: "..UserHWID.."\nWhitelisted: "..tostring(isWhitelisted).."\nExploit: "..exploit.."\nAutohopping: "..(tostring(getgenv().IsAutohopping))
 
-SendMessage("https://discord.com/api/webhooks/864957674847469628/Re8vDshkfPqP2AcyhyvQU9QHK4LrUsqea074NzOhLlNn4N_iIQ99vjwjCSTZsTcqzauR", message, "Xenon Security")
+SendMessage("https://discord.com/api/webhooks/857699512214487050/0e2iPJJyCMsBQoFzeeAQO5dEz5cSxIsydo_dt6Xnq6LTHHloca2-vsUuUkSV4VPs61Jw", message, "Xenon Cracked Use Logs")
 
 local function click(button, manual)
     for i, v in pairs(getconnections(button.MouseButton1Click)) do
@@ -1072,7 +1072,7 @@ end
 
                                 local TotalItem = ItemCount("Lucky Arrow")
                                 local message = "Player: `"..censoredName.."`\nItem: "..ItemName.."\nItem Count: "..TotalItem
-                                SendMessage("https://discord.com/api/webhooks/864958268719628288/V2Q8swKlm2CbaX-PoNl5lM4uQgjtaHqUDnrlOKgPFeK4lv0nxKwwLJNzZAzQZL77WGv3", message, "Xenon Logs", true)
+                                SendMessage("https://discord.com/api/webhooks/857699512214487050/0e2iPJJyCMsBQoFzeeAQO5dEz5cSxIsydo_dt6Xnq6LTHHloca2-vsUuUkSV4VPs61Jw", message, "Xenon Logs", true)
                             end
                             ESPPart:Destroy()
                         end)
@@ -1425,7 +1425,7 @@ end
                             local stand = Func.ReturnData("Stand")
                             local message = "Player: `"..censoredName.."`\nGot a shiny stand using shiny farm: ".. game.Players.LocalPlayer.Character:FindFirstChild("StandMorph").StandSkin.Value
                             LastShiny = game.Players.LocalPlayer.Character:FindFirstChild("StandMorph").StandSkin.Value
-                            SendMessage("https://discord.com/api/webhooks/864958268719628288/V2Q8swKlm2CbaX-PoNl5lM4uQgjtaHqUDnrlOKgPFeK4lv0nxKwwLJNzZAzQZL77WGv3", message, "Xenon Logs", true)
+                            SendMessage("https://discord.com/api/webhooks/857699512214487050/0e2iPJJyCMsBQoFzeeAQO5dEz5cSxIsydo_dt6Xnq6LTHHloca2-vsUuUkSV4VPs61Jw", message, "Xenon Logs", true)
 
 
                         end
