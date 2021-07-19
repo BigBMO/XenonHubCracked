@@ -2205,8 +2205,8 @@ end
     end)--]]
 
     game.StarterGui:SetCore("SendNotification", {
-        Title = "Xenon Cracked";
+        Title = "Xenon Hub Cracked";
         Text = "Loaded.",
-        Duration = 3
+        Duration = 5
     }) 
 print("Loaded")
